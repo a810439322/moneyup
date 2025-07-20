@@ -1,0 +1,67 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "家庭资产",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/add/add",
+      "style": {
+        "navigationBarTitleText": "添加资产"
+      }
+    },
+    {
+      "path": "pages/edit/edit",
+      "style": {
+        "navigationBarTitleText": "编辑资产"
+      }
+    },
+    {
+      "path": "pages/statistics/statistics",
+      "style": {
+        "navigationBarTitleText": "资产统计"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "家庭资产记录",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png",
+        "text": "资产"
+      },
+      {
+        "pagePath": "pages/statistics/statistics",
+        "iconPath": "static/chart.png",
+        "selectedIconPath": "static/chart-active.png",
+        "text": "统计"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "iconPath": "static/settings.png",
+        "selectedIconPath": "static/settings-active.png",
+        "text": "设置"
+      }
+    ]
+  }
+} 

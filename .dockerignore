@@ -1,0 +1,50 @@
+# Git
+.git
+.gitignore
+
+# 依赖
+node_modules
+npm-debug.log*
+
+# 构建产物
+dist
+build
+
+# 开发环境
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# 日志
+logs
+*.log
+
+# 临时文件
+.tmp
+.temp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 数据目录
+data/
+uploads/
+
+# Docker
+Dockerfile
+docker-compose.yml
+*.md
+deploy.sh
+deploy.bat
+
+# 未打包目录
+unpackage/ 
